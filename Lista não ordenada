@@ -1,0 +1,20 @@
+<!Doctype HTML>
+<HTML>
+    <HEAD>
+    <TITLE>LIsta de cesta basica</TITLE>
+    </HEAD>
+    <Body>
+    <UL>
+    <LI>arroz</LI>
+    <LI>feijão</LI>
+    <LI>macarrão</LI>
+    <LI>leite</LI>
+    <LI>açucar</LI>
+    <LI>café</LI>
+    <LI>farinha</LI>
+    <LI>sal</LI>
+    <LI>bolacha</LI>
+    <LI>olho</LI>
+    </UL>
+    </Body>
+</HTML>
