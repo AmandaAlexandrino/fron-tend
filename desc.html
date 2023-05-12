@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoet" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0;
+            margin: 0;
+        }
+        #main{display: grid;
+            grid-template-areas: "header header" "nav nav" "content aside" "footer footer";
+            grid-template-rows:15vh 10vh 55vh 10vh;
+
+        }
+
+        .maindherder{grid-area: header; background: red}
+        .mainnav{grid-area:nav; background: rgb(0, 119, 255);}
+        .maincontent{grid-area:content; background: rgb(255, 0, 200,);}
+        .maincontent{grid-area:aside; background: rgb(255, 123, 0);}
+        .mainFooter{grid-area: footer;background: rgb(30, 255, 0);}
+        @meda screnn an (maxwdth: 768px){
+            body{background:#cdcdcd}
+            #main{
+                gried-area:header;margin-top:20px;
+            }
+
+            .mainnav{
+                griend-area:header;margin-top:20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main id="main">
+        <header class="maindherder">Header</header>
+        <nav class="mainnav">Nav</nav>
+        <artivle class="maincontent">content</artivle>
+        <aside class="mainside">Aside</aside>
+        <footer class="mainFooter">Footer</footer>
+    </main>
+</body>
+</html>
