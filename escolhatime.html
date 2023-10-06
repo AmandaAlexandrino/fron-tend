@@ -1,0 +1,29 @@
+<script>
+    // Array com as opções
+    var opcoes=["opção1-Botafogo","opção2-Bragantino", "opção3-gremio", "opção4-Palmeiras", "opção5-Flamengo"];
+
+    //Exibir o menu
+     console.log("Escolha uma opção:")
+
+//Usar um loop for para mostrar as opções
+for(var i=0;i<opcoes.length;i++){
+    console.log(i+1+"."+opcoes[i])
+}
+//Solicitara escolha do usuario
+ var escolha=prompt("1-Botafogo, 2-Bragantino, 3-gremio, 4-palmeiras, 5-Flamengo:");
+
+//Converter a escolha para um número inteiro
+ var escolhalnt=parselnt(escolha);
+
+//Verificar se a escolha é válida
+
+if (!isNaN(escolhalnt)&& escolhalnt>=1 && escolhalnt<5){
+
+    //Exbir a opção pelo usuário
+     alert("Você escolheu: =+opcoes[escolhalnt-1]");
+}else{
+    //Tratar escolha inválida
+
+     alert("Escolha inválida.Por favor, escolha um número de 1 a 5.");
+}
+</script>
