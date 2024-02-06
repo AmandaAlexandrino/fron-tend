@@ -1,0 +1,45 @@
+<DOCTPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+        content="width=device-width", intial-scale="1.0">
+        <title>Meu Perfil</title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                padding: 20px;
+            }
+
+            h1{
+                color:#333;
+            }
+
+            p{
+                line-height: 1.6;
+                color:#666;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Seu Nome</h1>
+            <p>descrição Sobre Você </p>
+        </header>
+
+        <section>
+            <h2>informação Sobre Você </h2>
+            <ul>
+                <li><strong>Data De Nascimento:</strong>DD/MM/AAAA</li>
+                <li><strong>Llocalização:</strong>Cidade,Pais</li>
+                <li><strong>Email:</strong>seu.email@example.com</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Interesses</h2>
+            <p>Lista De Interesses,Hobbies, ou atividades que você gosta.</p>
+        </section>
+    </body>
+</html>
